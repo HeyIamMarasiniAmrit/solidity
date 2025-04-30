@@ -14,3 +14,9 @@ Solidity - Comments
 Any text between a // and the end of a line is treated as a comment and is ignored by Solidity Compiler.
 
 Any text between the characters /* and */ is treated as a comment. This may span multiple lines.
+
+Solidity - Types
+While writing program in any language, you need to use various variables to store various information. Variables are nothing but reserved memory locations to store values. This means that when you create a variable you reserve some space in memory.
+
+You may like to store information of various data types like character, wide character, integer, floating point, double floating point, boolean etc. Based on the data type of a variable, the operating system allocates memory and decides what can be stored in the reserved memory.
+
