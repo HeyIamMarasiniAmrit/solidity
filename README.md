@@ -20,3 +20,10 @@ While writing program in any language, you need to use various variables to stor
 
 You may like to store information of various data types like character, wide character, integer, floating point, double floating point, boolean etc. Based on the data type of a variable, the operating system allocates memory and decides what can be stored in the reserved memory.
 
+Solidity - Variables
+State Variables − Variables whose values are permanently stored in a contract storage.
+
+Local Variables − Variables whose values are present till function is executing.
+
+Global Variables − Special variables exists in the global namespace used to get information about the blockchain.
+
