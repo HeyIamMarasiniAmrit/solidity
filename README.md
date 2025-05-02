@@ -28,3 +28,5 @@ Local Variables − Variables whose values are present till function is executin
 Global Variables − Special variables exists in the global namespace used to get information about the blockchain.
 Local Variable
 Variables whose values are available only within a function where it is defined. Function parameters are always local to that function.
+Global Variables
+These are special variables which exist in global workspace and provide information about the blockchain and transaction properties.
