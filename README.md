@@ -284,3 +284,29 @@ Note − Same logic applies to Bitwise operators so they will become like <<=, >
 
 Conditional Operator (? :)
 The conditional operator first evaluates an expression for a true or false value and then executes one of the two given statements depending upon the result of the evaluation.
+
+Solidity - Loops
+While writing a contract, you may encounter a situation where you need to perform an action over and over again. In such situations, you would need to write loop statements to reduce the number of lines.
+
+Solidity supports all the necessary loops to ease down the pressure of programming.
+
+Sr.No	Loops & Description
+1	
+While Loop
+
+The most basic loop in Solidity is the while loop which would be discussed in this chapter.
+
+2	
+do...while Loop
+
+The do...while loop is similar to the while loop except that the condition check happens at the end of the loop.
+
+3	
+For Loop
+
+The for loop is the most compact form of looping. It includes the following three important parts.
+
+4	
+Loop Control
+
+Solidity provides full control to handle loops and switch statements.
