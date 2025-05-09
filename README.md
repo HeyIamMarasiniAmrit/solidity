@@ -310,3 +310,11 @@ The for loop is the most compact form of looping. It includes the following thre
 Loop Control
 
 Solidity provides full control to handle loops and switch statements.
+Solidity - While Loop
+The most basic loop in Solidity is the while loop which would be discussed in this chapter. The purpose of a while loop is to execute a statement or code block repeatedly as long as an expression is true. Once the expression becomes false, the loop terminates.
+Syntax
+The syntax of while loop in Solidity is as follows −
+
+while (expression) {
+   Statement(s) to be executed if expression is true
+}
