@@ -363,3 +363,12 @@ if (expression) {
    Statement(s) to be executed if expression is true
 }
 Here a Solidity expression is evaluated. If the resulting value is true, the given statement(s) are executed. If the expression is false, then no statement would be not executed. Most of the times, you will use comparison operators while making decisions.
+Solidity - if...else statement
+The 'if...else' statement is the next form of control statement that allows Solidity to execute statements in a more controlled way.
+
+Syntax
+if (expression) {
+   Statement(s) to be executed if expression is true
+} else {
+   Statement(s) to be executed if expression is false
+}
