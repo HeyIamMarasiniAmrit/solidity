@@ -349,3 +349,17 @@ The test statement which will test if a given condition is true or not. If the c
 The iteration statement where you can increase or decrease your counter.
 
 You can put all the three parts in a single line separated by semicolons.
+Solidity - Decision Making
+While writing a program, there may be a situation when you need to adopt one out of a given set of paths. In such cases, you need to use conditional statements that allow your program to make correct decisions and perform right actions.
+
+Solidity supports conditional statements which are used to perform different actions based on different conditions. Here we will explain the if..else statement.
+Solidity - if statement
+The if statement is the fundamental control statement that allows Solidity to make decisions and execute statements conditionally.
+
+Syntax
+The syntax for a basic if statement is as follows −
+
+if (expression) {
+   Statement(s) to be executed if expression is true
+}
+Here a Solidity expression is evaluated. If the resulting value is true, the given statement(s) are executed. If the expression is false, then no statement would be not executed. Most of the times, you will use comparison operators while making decisions.
