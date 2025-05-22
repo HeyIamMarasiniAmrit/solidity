@@ -451,5 +451,33 @@ An element is accessed by indexing the array name. This is done by placing the i
 
 uint salary = balance[2];
 The above statement will take 3rd element from the array and assign the value to salary variable. Following is an example, which will use all the above-mentioned three concepts viz. declaration, assignment and accessing arrays −
+Solidity - Enums
+Enums restrict a variable to have one of only a few predefined values. The values in this enumerated list are called enums.
+
+With the use of enums it is possible to reduce the number of bugs in your code.
+
+For example, if we consider an application for a fresh juice shop, it would be possible to restrict the glass size to small, medium, and large. This would make sure that it would not allow anyone to order any size other than small, medium, or large.
+
+Example
+Try the following code to understand how the enum works in Solidity.
+
+pragma solidity ^0.5.0;
+
+contract test {
+   enum FreshJuiceSize{ SMALL, MEDIUM, LARGE }
+   FreshJuiceSize choice;
+   FreshJuiceSize constant defaultChoice = FreshJuiceSize.MEDIUM;
+
+   function setLarge() public {
+      choice = FreshJuiceSize.LARGE;
+   }
+   function getChoice() public view returns (FreshJuiceSize) {
+      return choice;
+   }
+   function getDefaultChoice() public pure returns (uint) {
+      return uint(defaultChoice);
+   }
+}
+Run the above program using steps provided in Solidity First Application chapter.
 
 
