@@ -599,4 +599,8 @@ uint8 d = uint8(uint16(a)); // d = 0x34
 uint8 e = uint8(bytes1(a)); // e = 0x12
 Hexadecimal numbers can be assigned to any integer type if no truncation is needed.
 
+Solidity - Ether Units
+In solidity we can use wei, finney, szabo or ether as a suffix to a literal to be used to convert various ether based denominations. Lowest unit is wei and 1e12 represents 1 x 1012.
 
+Time Units
+Similar to currency, Solidity has time units where lowest unit is second and we can use seconds, minutes, hours, days and weeks as suffix to denote time.
