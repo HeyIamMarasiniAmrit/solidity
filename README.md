@@ -678,3 +678,7 @@ Gas price of the transaction.
 tx.origin (address payable)
 
 Sender of the transaction (full call chain).
+
+Solidity - Style Guide
+
+
