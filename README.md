@@ -2,10 +2,12 @@ Solidity is an object-oriented, high-level language for implementing smart contr
 
 # 🚀 Solidity Mastery — Complete Solidity Topics Covered
 
+
 Welcome to my Solidity Learning Repository! 🎉  
 This repo documents my journey through **every major topic in Solidity**, the language used to write smart contracts for the Ethereum blockchain. Whether you're a beginner or advanced developer, this resource can help you understand the inner workings of smart contracts and decentralized applications.
 
 ---
+
 
 ## 📚 Topics Covered
 
